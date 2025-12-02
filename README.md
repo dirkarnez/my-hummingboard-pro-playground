@@ -10,3 +10,9 @@ my-hummingboard-pro-playground
   - [tim-vx-imx/.github/workflows/cmake_x86_vsim.yml](https://github.com/nxp-imx/tim-vx-imx/blob/lf-6.12.34_2.1.0/.github/workflows/cmake_x86_vsim.yml)
   - [tim-vx-imx/samples at lf-6.12.34_2.1.0 · nxp-imx/tim-vx-imx](https://github.com/nxp-imx/tim-vx-imx/tree/lf-6.12.34_2.1.0/samples)
   - [TIM-VX/docs/Programming_Guide.md at main · VeriSilicon/TIM-VX](https://github.com/VeriSilicon/TIM-VX/blob/main/docs/Programming_Guide.md)
+
+### Compiler (crosstools-ng's `arm-cortexa9_neon-linux-gnueabihf` should work, not yet tested)
+- linux
+  - arm-linux-gnueabihf
+- u-boot
+  - (aarch64-)arm-none-linux-gnueabihf
