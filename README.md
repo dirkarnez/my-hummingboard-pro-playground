@@ -25,3 +25,48 @@ my-hummingboard-pro-playground
 ### Boot script
 - [Debian installer on i.MX6 boards | Ezurio](https://www.ezurio.com/documentation/debian-installer-on-i-mx6-boards)
 - [6x-bootscripts/6x_bootscript-netboot.txt at master · boundarydevices/6x-bootscripts](https://github.com/boundarydevices/6x-bootscripts/blob/master/6x_bootscript-netboot.txt#L62)
+- Debian (Note `setenv console "${console},${baudrate}"` below)
+  - ```
+    if test -n "${boot_targets}"; then
+      echo "Mainline u-boot / new-style environment detected."
+    else
+      echo "Non-mainline u-boot or old-style mainline u-boot detected."
+      echo "This boot script uses the unified bootcmd handling of mainline"
+      echo "u-boot >=v2014.10, which is not available on your system."
+      echo "Please boot the installer manually."
+      exit 0
+    fi
+    
+    if test -z "${fdtfile}"; then
+      echo 'fdtfile environment variable not set. Aborting boot process.'
+      exit 0
+    fi
+    
+    if test -n "${distro_bootpart}"; then
+      setenv partition "${distro_bootpart}"
+    else
+      setenv partition "${bootpart}"
+    fi
+    
+    if test ! -e ${devtype} ${devnum}:${partition} dtbs/${fdtfile}; then
+      echo "This installer medium does not contain a suitable device-tree file for"
+      echo "this system (${fdtfile}). Aborting boot process."
+      exit 0
+    fi
+    
+    # Some i.MX6-based systems do not encode the baudrate in the console variable
+    if test "${console}" = "ttymxc0" && test -n "${baudrate}"; then
+      setenv console "${console},${baudrate}"
+    fi
+    
+    if test -n "${console}"; then
+      setenv bootargs "${bootargs} console=${console}"
+    fi
+    
+    load ${devtype} ${devnum}:${partition} ${kernel_addr_r} vmlinuz \
+    && load ${devtype} ${devnum}:${partition} ${fdt_addr_r} dtbs/${fdtfile} \
+    && load ${devtype} ${devnum}:${partition} ${ramdisk_addr_r} initrd.gz \
+    && echo "Booting the Debian installer..." \
+    && bootz ${kernel_addr_r} ${ramdisk_addr_r}:${filesize} ${fdt_addr_r}
+
+    ```
