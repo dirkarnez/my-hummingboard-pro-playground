@@ -23,6 +23,8 @@ my-hummingboard-pro-playground
   - [debian-builder/runme.sh at develop-pure · SolidRun/debian-builder](https://github.com/SolidRun/debian-builder/blob/develop-pure/runme.sh#L231)
 
 ### Boot script
+- [Day 23 。初入嵌入式開發- 如何修改 BSP - Uboot 篇 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10344991)
+  - a generic tutorial
 - [Debian installer on i.MX6 boards | Ezurio](https://www.ezurio.com/documentation/debian-installer-on-i-mx6-boards)
 - [6x-bootscripts/6x_bootscript-netboot.txt at master · boundarydevices/6x-bootscripts](https://github.com/boundarydevices/6x-bootscripts/blob/master/6x_bootscript-netboot.txt#L62)
 - Debian (Note `setenv console "${console},${baudrate}"` below)
