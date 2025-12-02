@@ -16,3 +16,6 @@ my-hummingboard-pro-playground
   - arm-linux-gnueabihf
 - u-boot
   - (aarch64-)arm-none-linux-gnueabihf
+
+### Debian
+- https://images.solid-run.com/Pure-Debian/armhf/12/2024-09-09_82780ea
