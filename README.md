@@ -19,3 +19,4 @@ my-hummingboard-pro-playground
 
 ### Debian
 - https://images.solid-run.com/Pure-Debian/armhf/12/2024-09-09_82780ea
+  - [debian-builder/runme.sh at develop-pure · SolidRun/debian-builder](https://github.com/SolidRun/debian-builder/blob/develop-pure/runme.sh#L231)
