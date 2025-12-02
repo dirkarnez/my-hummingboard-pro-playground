@@ -23,4 +23,5 @@ my-hummingboard-pro-playground
   - [debian-builder/runme.sh at develop-pure · SolidRun/debian-builder](https://github.com/SolidRun/debian-builder/blob/develop-pure/runme.sh#L231)
 
 ### Boot script
+- [Debian installer on i.MX6 boards | Ezurio](https://www.ezurio.com/documentation/debian-installer-on-i-mx6-boards)
 - [6x-bootscripts/6x_bootscript-netboot.txt at master · boundarydevices/6x-bootscripts](https://github.com/boundarydevices/6x-bootscripts/blob/master/6x_bootscript-netboot.txt#L62)
