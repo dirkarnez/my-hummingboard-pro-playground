@@ -1,5 +1,7 @@
 my-hummingboard-pro-playground
 ==============================
+### Kernel
+- [ev3dev/flash-kernel: Fork of debian flash-kernel package](https://github.com/ev3dev/flash-kernel/tree/ev3dev-buster)
 
 ### GPU programming
 - [nxp-imx/tim-vx-imx](https://github.com/nxp-imx/tim-vx-imx)
