@@ -14,6 +14,10 @@ my-hummingboard-pro-playground
   - [tim-vx-imx/samples at lf-6.12.34_2.1.0 · nxp-imx/tim-vx-imx](https://github.com/nxp-imx/tim-vx-imx/tree/lf-6.12.34_2.1.0/samples)
   - [TIM-VX/docs/Programming_Guide.md at main · VeriSilicon/TIM-VX](https://github.com/VeriSilicon/TIM-VX/blob/main/docs/Programming_Guide.md)
 - [buildroot/package/freescale-imx at master · SolidRun/buildroot](https://github.com/SolidRun/buildroot/tree/master/package/freescale-imx)
+- [**VeriSilicon/acuitylite: Acuitylite is an end-to-end neural network deployment tool**](https://github.com/VeriSilicon/acuitylite)
+  - [demo.tflite — Acuitylite documentation](https://verisilicon.github.io/acuitylite/demo_tflite.html)
+- [VeriSilicon/ZenCompiler: The ultimate AI compiler based on MLIR](https://github.com/VeriSilicon/ZenCompiler)
+- [VeriSilicon/Vinaro: Vinaro open source SDK](https://github.com/VeriSilicon/Vinaro)
 
 ### Compiler (crosstools-ng's `arm-cortexa9_neon-linux-gnueabihf` should work, not yet tested)
 - linux
