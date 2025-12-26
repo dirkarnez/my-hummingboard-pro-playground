@@ -79,3 +79,16 @@ my-hummingboard-pro-playground
     && bootz ${kernel_addr_r} ${ramdisk_addr_r}:${filesize} ${fdt_addr_r}
 
     ```
+
+### rootfs
+- https://github.com/motioneye-project/motioneyeos/blob/50ede5492e530b48966cf171b3a96dde7847b9d6/fs/cpio/init#L3
+- https://github.com/motioneye-project/motioneyeos/blob/dev/writeimage.sh
+- CONFIG_BLK_DEV_INITRD
+- https://github.com/motioneye-project/motioneyeos/blob/50ede5492e530b48966cf171b3a96dde7847b9d6/board/nanopir1/uEnv.txt
+- rootfs-overlay
+- https://github.com/motioneye-project/motioneyeos/blob/50ede5492e530b48966cf171b3a96dde7847b9d6/docs/manual/customize-quick-guide.txt#L32
+- BR2_ROOTFS_OVERLAY
+- BR2_TARGET_ROOTFS_CPIO=y
+- BR2_TARGET_ROOTFS_CPIO_GZIP=y
+- https://github.com/motioneye-project/motioneyeos/blob/50ede5492e530b48966cf171b3a96dde7847b9d6/board/common/mkimage.sh#L30
+- 
