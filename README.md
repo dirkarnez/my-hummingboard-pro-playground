@@ -32,6 +32,9 @@ my-hummingboard-pro-playground
 - https://images.solid-run.com/Pure-Debian/armhf/12/2024-09-09_82780ea
   - [debian-builder/runme.sh at develop-pure · SolidRun/debian-builder](https://github.com/SolidRun/debian-builder/blob/develop-pure/runme.sh#L231)
 
+### Rootfs
+- https://github.com/PartialVolume/shredos.x86_64/blob/19d7f41b10a0cb76bd0d4bc2a1d49002d315a7ea/package/mfgtools/readme.txt#L33
+
 ### Boot script
 - [Day 23 。初入嵌入式開發- 如何修改 BSP - Uboot 篇 - iT 邦幫忙::一起幫忙解決難題，拯救 IT 人的一天](https://ithelp.ithome.com.tw/articles/10344991)
   - a generic tutorial
