@@ -22,7 +22,11 @@ my-hummingboard-pro-playground
   - [demo.tflite — Acuitylite documentation](https://verisilicon.github.io/acuitylite/demo_tflite.html)
 - [VeriSilicon/ZenCompiler: The ultimate AI compiler based on MLIR](https://github.com/VeriSilicon/ZenCompiler)
 - [VeriSilicon/Vinaro: Vinaro open source SDK](https://github.com/VeriSilicon/Vinaro)
+- https://solidrun.atlassian.net/wiki/spaces/developer/pages/286490753/i.MX6+GPU+VPU
+- https://solidrun.atlassian.net/wiki/spaces/developer/pages/287178892/i.MX6+SOM+available+I+Os
 
+### Spec
+- https://solidrun.atlassian.net/wiki/spaces/developer/pages/294486017/i.MX6+PCB+rev+1.9+and+2.0+-+Analog+Devices+PHY
 ### Compiler (crosstools-ng's `arm-cortexa9_neon-linux-gnueabihf` should work, not yet tested)
 - linux
   - arm-linux-gnueabihf
