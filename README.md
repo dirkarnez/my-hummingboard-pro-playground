@@ -1,5 +1,8 @@
 my-hummingboard-pro-playground
 ==============================
+### Pinout (8 is TX, 9 is RX)
+- ![](./hb_gpio.png)
+
 ### Kernel
 - [ev3dev/flash-kernel: Fork of debian flash-kernel package](https://github.com/ev3dev/flash-kernel/tree/ev3dev-buster)
 - [PartialVolume/shredos.x86_64 at 98c1fd0e45184a048d9e3d1367f482d9a9832b0b](https://github.com/PartialVolume/shredos.x86_64/tree/98c1fd0e45184a048d9e3d1367f482d9a9832b0b)
