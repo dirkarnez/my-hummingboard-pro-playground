@@ -1,6 +1,6 @@
 my-hummingboard-pro-playground
 ==============================
-### Pinout (8 is TX, 9 is RX)
+### Pinout (2 is 5V 8 is TX, 10 is RX, 9 is GND, connect all 4 pins to USART-to-USB adapter PLUS make sure not USB power source / other power source connected)
 - ![](./hb_gpio.png)
 
 ### Kernel
