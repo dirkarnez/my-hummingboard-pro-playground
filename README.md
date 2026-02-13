@@ -1,7 +1,22 @@
 my-hummingboard-pro-playground
 ==============================
-### Pinout (2 is 5V 8 is TX, 10 is RX, 9 is GND, connect all 4 pins to USART-to-USB adapter PLUS make sure not USB power source / other power source connected)
+### Pinout (2 is 5V, 8 is TX, 10 is RX, 9 is GND, connect all 4 pins to USART-to-USB adapter PLUS make sure not USB power source / other power source connected)
 - ![](./hb_gpio.png)
+
+### HDMI (TLDR: `console=tty0` must added if want serial output to HDMI. Omit if use Linux headlessly)
+- `setenv bootargs console=ttymxc0,115200 rw rootwait video=mxcfb0:dev=hdmi init=/init`
+  - ```
+    In:    serial
+    Out:   serial
+    Err:   serial
+    ```
+- `setenv bootargs console=ttymxc0,115200 rw rootwait video=mxcfb0:dev=hdmi console=tty0 init=/init`
+  - ```
+    In:    serial
+    Out:   vga
+    Err:   vga
+    Net:   FEC
+    ```
 
 ### Kernel
 - [ev3dev/flash-kernel: Fork of debian flash-kernel package](https://github.com/ev3dev/flash-kernel/tree/ev3dev-buster)
