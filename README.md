@@ -26,6 +26,7 @@ my-hummingboard-pro-playground
 - [Yocto for i.MX6 - Developer Center -  SolidRun](https://solidrun.atlassian.net/wiki/spaces/developer/pages/287277558/Yocto+for+i.MX6)
 
 ### GPU programming
+- `https://github.com/search?q=org%3AFreescale%20MXC_GPU_VIV&type=code`
 - [nxp-imx/tim-vx-imx](https://github.com/nxp-imx/tim-vx-imx)
   - [./cmake/YOCTO.cmake](https://github.com/nxp-imx/tim-vx-imx/blob/lf-6.12.34_2.1.0/cmake/YOCTO.cmake)
   - [./cmake/local_sdk.cmake](https://github.com/nxp-imx/tim-vx-imx/blob/lf-6.12.34_2.1.0/cmake/local_sdk.cmake)
