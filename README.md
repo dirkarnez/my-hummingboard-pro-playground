@@ -28,6 +28,11 @@ my-hummingboard-pro-playground
 - [PartialVolume/shredos.x86_64 at 98c1fd0e45184a048d9e3d1367f482d9a9832b0b](https://github.com/PartialVolume/shredos.x86_64/tree/98c1fd0e45184a048d9e3d1367f482d9a9832b0b)
 - [Yocto for i.MX6 - Developer Center -  SolidRun](https://solidrun.atlassian.net/wiki/spaces/developer/pages/287277558/Yocto+for+i.MX6)
 
+### Just Use Prebuilt Debian
+- May use `gunzip -c <IMAGE>.wic.gz | sudo dd of=/dev/sdX bs=1M  iflag=fullblock oflag=direct conv=fsync`
+- [25 Flashing Images Using bmaptool — The Yocto Project ® dev documentation](https://docs.yoctoproject.org/dev/dev-manual/bmaptool.html)
+- https://images.solid-run.com/IMX6/meta-solidrun-arm-imx6/2024-07-05_ab67695
+
 ### GPU programming
 - `https://github.com/search?q=org%3AFreescale%20MXC_GPU_VIV&type=code`
 - [nxp-imx/tim-vx-imx](https://github.com/nxp-imx/tim-vx-imx)
