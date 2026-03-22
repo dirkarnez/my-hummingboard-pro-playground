@@ -23,6 +23,12 @@ my-hummingboard-pro-playground
 ### Bootable
 - [dirkarnez/bootable-img-creator](https://github.com/dirkarnez/bootable-img-creator)
 
+### TODOs
+- [ ] Burn official Yocto image and use
+- [ ] `init` uses GPIO driver
+  - [Linux 802.11n CSI Tool — Installation Instructions](https://dhalperi.github.io/linux-80211n-csitool/installation.html)
+- [ ] scripted bootable raw SD card image
+
 ### Kernel
 - [ev3dev/flash-kernel: Fork of debian flash-kernel package](https://github.com/ev3dev/flash-kernel/tree/ev3dev-buster)
 - [PartialVolume/shredos.x86_64 at 98c1fd0e45184a048d9e3d1367f482d9a9832b0b](https://github.com/PartialVolume/shredos.x86_64/tree/98c1fd0e45184a048d9e3d1367f482d9a9832b0b)
