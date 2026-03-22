@@ -28,6 +28,8 @@ my-hummingboard-pro-playground
 - [ ] `init` uses GPIO driver
   - [Linux 802.11n CSI Tool — Installation Instructions](https://dhalperi.github.io/linux-80211n-csitool/installation.html)
 - [ ] scripted bootable raw SD card image
+- [ ] Study different filesystems
+  - [Every Computer File System Explained - YouTube](https://www.youtube.com/watch?v=aqFfHKpRF7k) 
 
 ### Kernel
 - [ev3dev/flash-kernel: Fork of debian flash-kernel package](https://github.com/ev3dev/flash-kernel/tree/ev3dev-buster)
